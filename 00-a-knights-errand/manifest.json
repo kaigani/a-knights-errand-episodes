@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 15.808,
+      "title": "The castle gate",
+      "choice": {
+        "at": 12.808,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Up the stairs",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Down the passage",
+            "next": "n03"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 15.616,
+      "title": "The tower stairs",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "The green corridor",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The moonlit gallery",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 15.616,
+      "title": "The dungeon descent",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Leap the pit",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Up the archway stair",
+            "next": "n07"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 15.616,
+      "title": "The wizard's laboratory",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Grab the shield",
+            "next": "n08"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Dive for cover",
+            "next": "n09"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 15.616,
+      "title": "The moonlit gallery",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Strike the amulet",
+            "next": "n11"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Slide underneath",
+            "next": "n10"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 15.616,
+      "title": "The leap over the pit",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Climb the ladder",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The glowing door",
+            "next": "n13"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 15.616,
+      "title": "The flooded gallery",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Climb up and out",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Dive under the gate",
+            "next": "n15"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 15.616,
+      "title": "The trophy wall",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 15.616,
+      "title": "The frog",
+      "outcome": "lose"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 15.616,
+      "title": "Out the window",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 15.616,
+      "title": "The rescue",
+      "outcome": "win"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 15.616,
+      "title": "Back where he started",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 15.616,
+      "title": "The grasping gold",
+      "outcome": "lose"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 15.616,
+      "title": "The gargoyle's ledge",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 15.616,
+      "title": "The long slide",
+      "outcome": "lose"
+    }
+  }
+}

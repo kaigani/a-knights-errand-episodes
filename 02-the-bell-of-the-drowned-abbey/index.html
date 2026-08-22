@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>A Knight's Errand: The Bell of the Drowned Abbey</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <!-- video stage: two stacked videos, double-buffered -->
+    <div id="stage">
+      <video id="vidA" playsinline preload="auto"></video>
+      <video id="vidB" playsinline preload="auto"></video>
+
+      <!-- title screen: attract video underneath, instructions on a card -->
+      <div id="title" class="panel visible">
+        <video id="splashvid" src="clips/splash.mp4" preload="auto" playsinline></video>
+        <img id="titlelogo" src="assets/title-splash.webp" alt="A Knight's Errand">
+        <div id="titlecard">
+          <p class="tagline">Ring the bell that was never rung. Lay the dead to rest.<br>
+            Choose in time &mdash; or the night chooses for you.</p>
+          <div id="loadwrap">
+            <button id="begin" disabled>Loading&hellip;</button>
+            <div id="loadbar"><div id="loadfill"></div></div>
+          </div>
+          <p class="fineprint">Hold your phone upright &middot; tap a choice in time</p>
+        </div>
+      </div>
+
+      <!-- end screens -->
+      <div id="end" class="panel">
+        <img id="endlogo" src="" alt="">
+        <p id="endPath" class="tagline"></p>
+        <button id="restart">Try Again</button>
+      </div>
+
+      <!-- persistent sound toggle, 50% transparent over the picture -->
+      <button id="mutebtn" title="Toggle sound">
+        <img id="muteicon" src="assets/icon-muted.webp" alt="sound is off">
+      </button>
+    </div>
+
+    <!-- QTE choice bar, beneath the picture -->
+    <div id="choicebar">
+      <button class="choice" id="c0">
+        <span class="glyph"></span><span class="label"></span>
+      </button>
+      <svg id="ring" viewBox="0 0 48 48" aria-hidden="true">
+        <circle class="ring-bg" cx="24" cy="24" r="20"/>
+        <circle class="ring-fg" cx="24" cy="24" r="20"/>
+      </svg>
+      <button class="choice" id="c1">
+        <span class="glyph"></span><span class="label"></span>
+      </button>
+    </div>
+  </main>
+
+  <div id="hud"></div>
+  <script src="main.js"></script>
+</body>
+</html>

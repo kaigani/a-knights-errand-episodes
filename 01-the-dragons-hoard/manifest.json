@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Dragon's Hoard",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 15.808,
+      "title": "The cave mouth",
+      "choice": {
+        "at": 12.808,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "The narrow crevice",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The bone tunnel",
+            "next": "n03"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 15.616,
+      "title": "The ledge above the hoard",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowDown",
+            "label": "Down the coin slope",
+            "next": "n05"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Swing on the root",
+            "next": "n04"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 15.616,
+      "title": "The bone tunnel",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Leap the bone pile",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The side gallery",
+            "next": "n07"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 15.616,
+      "title": "The root swing",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Dash for the crown",
+            "next": "n09"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Hide in the chest",
+            "next": "n08"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 15.616,
+      "title": "The dais",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Slide the crown free",
+            "next": "n11"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Pocket some gold",
+            "next": "n10"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 15.616,
+      "title": "The shield sled",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Grab the stone spike",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Ride it out",
+            "next": "n13"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 15.616,
+      "title": "The glowworm gallery",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Climb the smoke vent",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Follow the warm draft",
+            "next": "n15"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 15.616,
+      "title": "The teddy",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 15.616,
+      "title": "The crown-stand",
+      "outcome": "lose"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 15.616,
+      "title": "The keepsake",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 15.616,
+      "title": "The crown",
+      "outcome": "win"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 15.616,
+      "title": "The back-scratcher",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 15.616,
+      "title": "The minting",
+      "outcome": "lose"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 15.616,
+      "title": "The cork",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 15.616,
+      "title": "The pendulum",
+      "outcome": "lose"
+    }
+  }
+}

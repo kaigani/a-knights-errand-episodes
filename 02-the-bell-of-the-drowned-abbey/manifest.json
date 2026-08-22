@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Bell of the Drowned Abbey",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 15.808,
+      "title": "The gate on the marsh",
+      "choice": {
+        "at": 12.808,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "The cloister arcade",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "The crypt stair",
+            "next": "n03"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 15.616,
+      "title": "The cloister",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "The bell tower",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The chapter house",
+            "next": "n05"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 15.616,
+      "title": "The crypt",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "The ossuary arch",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The flooded gallery",
+            "next": "n07"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 15.616,
+      "title": "The rotten stair",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Leap for the rope",
+            "next": "n09"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Edge back down",
+            "next": "n08"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 15.616,
+      "title": "The chapter house",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "The organ loft",
+            "next": "n10"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "The scriptorium",
+            "next": "n11"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 15.616,
+      "title": "The ossuary",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Pull the bell rope",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Hide in the coffin",
+            "next": "n13"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 15.616,
+      "title": "The drowned nave",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Climb the rood screen",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Drift on the pew",
+            "next": "n15"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 15.616,
+      "title": "The many hands",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 15.616,
+      "title": "The bell",
+      "outcome": "win"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 15.616,
+      "title": "The organist",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 15.616,
+      "title": "The ghost",
+      "outcome": "lose"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 15.616,
+      "title": "The clapper",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 15.616,
+      "title": "The funeral",
+      "outcome": "lose"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 15.616,
+      "title": "The parishioner",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 15.616,
+      "title": "The ferryman's fare",
+      "outcome": "lose"
+    }
+  }
+}
