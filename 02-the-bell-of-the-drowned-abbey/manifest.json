@@ -12,7 +12,7 @@
         "options": [
           {
             "key": "ArrowLeft",
-            "label": "The cloister arcade",
+            "label": "Toward the tower",
             "next": "n02"
           },
           {
@@ -177,7 +177,7 @@
     "n11": {
       "src": "clips/n11.mp4",
       "duration": 15.616,
-      "title": "The ghost",
+      "title": "The illuminated initial",
       "outcome": "lose"
     },
     "n12": {

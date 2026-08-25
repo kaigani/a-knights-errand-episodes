@@ -5,19 +5,19 @@
     "n01": {
       "src": "clips/n01.mp4",
       "duration": 15.808,
-      "title": "The cave mouth",
+      "title": "The Cinder Maw",
       "choice": {
         "at": 12.808,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowLeft",
-            "label": "The narrow crevice",
+            "label": "Squeeze left through the sweating basalt tubes",
             "next": "n02"
           },
           {
             "key": "ArrowRight",
-            "label": "The bone tunnel",
+            "label": "Slide right down the dwarven ore chute",
             "next": "n03"
           }
         ],
@@ -26,42 +26,42 @@
     },
     "n02": {
       "src": "clips/n02.mp4",
-      "duration": 15.616,
-      "title": "The ledge above the hoard",
+      "duration": 15.808,
+      "title": "The Sweating Basalts",
       "choice": {
-        "at": 12.616,
+        "at": 12.808,
         "window": 3.0,
         "options": [
           {
-            "key": "ArrowDown",
-            "label": "Down the coin slope",
-            "next": "n05"
+            "key": "ArrowLeft",
+            "label": "Push toward the bat cathedral",
+            "next": "n04"
           },
           {
             "key": "ArrowRight",
-            "label": "Swing on the root",
-            "next": "n04"
+            "label": "Veer toward the glassy lava bridge",
+            "next": "n05"
           }
         ],
-        "default": 1
+        "default": 0
       }
     },
     "n03": {
       "src": "clips/n03.mp4",
       "duration": 15.616,
-      "title": "The bone tunnel",
+      "title": "The Ore Chute",
       "choice": {
         "at": 12.616,
         "window": 3.0,
         "options": [
           {
-            "key": "ArrowUp",
-            "label": "Leap the bone pile",
+            "key": "ArrowLeft",
+            "label": "Time the sulfur geyser field",
             "next": "n06"
           },
           {
             "key": "ArrowRight",
-            "label": "The side gallery",
+            "label": "Brave the dwarven toll gate",
             "next": "n07"
           }
         ],
@@ -70,21 +70,21 @@
     },
     "n04": {
       "src": "clips/n04.mp4",
-      "duration": 15.616,
-      "title": "The root swing",
+      "duration": 17.984,
+      "title": "The Bat Cathedral",
       "choice": {
-        "at": 12.616,
+        "at": 14.984,
         "window": 3.0,
         "options": [
           {
-            "key": "ArrowUp",
-            "label": "Dash for the crown",
-            "next": "n09"
+            "key": "ArrowDown",
+            "label": "Tiptoe silent through the guano",
+            "next": "n08"
           },
           {
-            "key": "ArrowDown",
-            "label": "Hide in the chest",
-            "next": "n08"
+            "key": "ArrowUp",
+            "label": "Swing your torch wide to clear them",
+            "next": "n09"
           }
         ],
         "default": 1
@@ -92,42 +92,42 @@
     },
     "n05": {
       "src": "clips/n05.mp4",
+      "duration": 15.808,
+      "title": "The Glass Bridge",
+      "choice": {
+        "at": 12.808,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Sprint the bridge straight to the hoard",
+            "next": "n10"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Edge along the low crystal ledge below",
+            "next": "n11"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
       "duration": 15.616,
-      "title": "The dais",
+      "title": "The Sulfur Geysers",
       "choice": {
         "at": 12.616,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowUp",
-            "label": "Slide the crown free",
-            "next": "n11"
-          },
-          {
-            "key": "ArrowDown",
-            "label": "Pocket some gold",
-            "next": "n10"
-          }
-        ],
-        "default": 1
-      }
-    },
-    "n06": {
-      "src": "clips/n06.mp4",
-      "duration": 15.616,
-      "title": "The shield sled",
-      "choice": {
-        "at": 12.616,
-        "window": 3.0,
-        "options": [
-          {
-            "key": "ArrowLeft",
-            "label": "Grab the stone spike",
+            "label": "Dash between jets on the beat",
             "next": "n12"
           },
           {
             "key": "ArrowDown",
-            "label": "Ride it out",
+            "label": "Cover with your shield and bull-rush",
             "next": "n13"
           }
         ],
@@ -137,19 +137,19 @@
     "n07": {
       "src": "clips/n07.mp4",
       "duration": 15.616,
-      "title": "The glowworm gallery",
+      "title": "The Dwarven Toll Gate",
       "choice": {
         "at": 12.616,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowUp",
-            "label": "Climb the smoke vent",
+            "label": "Drop a coin and tip generously",
             "next": "n14"
           },
           {
-            "key": "ArrowRight",
-            "label": "Follow the warm draft",
+            "key": "ArrowLeft",
+            "label": "Sneak under its arm while it counts",
             "next": "n15"
           }
         ],
@@ -158,50 +158,50 @@
     },
     "n08": {
       "src": "clips/n08.mp4",
-      "duration": 15.616,
-      "title": "The teddy",
+      "duration": 15.808,
+      "title": "Guano Slip",
       "outcome": "lose"
     },
     "n09": {
       "src": "clips/n09.mp4",
-      "duration": 15.616,
-      "title": "The crown-stand",
+      "duration": 14.357,
+      "title": "Fwoom!",
       "outcome": "lose"
     },
     "n10": {
       "src": "clips/n10.mp4",
-      "duration": 15.616,
-      "title": "The keepsake",
+      "duration": 15.104,
+      "title": "Down the Hatch",
       "outcome": "lose"
     },
     "n11": {
       "src": "clips/n11.mp4",
-      "duration": 15.616,
-      "title": "The crown",
+      "duration": 10.474,
+      "title": "Between Two Snores",
       "outcome": "win"
     },
     "n12": {
       "src": "clips/n12.mp4",
       "duration": 15.616,
-      "title": "The back-scratcher",
+      "title": "Boiled Knight",
       "outcome": "lose"
     },
     "n13": {
       "src": "clips/n13.mp4",
       "duration": 15.616,
-      "title": "The minting",
+      "title": "Shield Sauna",
       "outcome": "lose"
     },
     "n14": {
       "src": "clips/n14.mp4",
-      "duration": 15.616,
-      "title": "The cork",
+      "duration": 15.488,
+      "title": "Toll Paid",
       "outcome": "lose"
     },
     "n15": {
       "src": "clips/n15.mp4",
-      "duration": 15.616,
-      "title": "The pendulum",
+      "duration": 15.104,
+      "title": "Insert Coin",
       "outcome": "lose"
     }
   }
