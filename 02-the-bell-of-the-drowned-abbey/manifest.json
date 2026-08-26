@@ -5,19 +5,19 @@
     "n01": {
       "src": "clips/n01.mp4",
       "duration": 15.808,
-      "title": "The gate on the marsh",
+      "title": "The Gate on the Marsh",
       "choice": {
         "at": 12.808,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowLeft",
-            "label": "Toward the tower",
+            "label": "Make for the bell tower",
             "next": "n02"
           },
           {
             "key": "ArrowDown",
-            "label": "The crypt stair",
+            "label": "Take the crypt stair",
             "next": "n03"
           }
         ],
@@ -27,19 +27,19 @@
     "n02": {
       "src": "clips/n02.mp4",
       "duration": 15.616,
-      "title": "The cloister",
+      "title": "The Cloister",
       "choice": {
         "at": 12.616,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowUp",
-            "label": "The bell tower",
+            "label": "Climb the tower stair",
             "next": "n04"
           },
           {
             "key": "ArrowRight",
-            "label": "The chapter house",
+            "label": "Follow the singing",
             "next": "n05"
           }
         ],
@@ -49,19 +49,19 @@
     "n03": {
       "src": "clips/n03.mp4",
       "duration": 15.616,
-      "title": "The crypt",
+      "title": "The Crypt",
       "choice": {
         "at": 12.616,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowLeft",
-            "label": "The ossuary arch",
+            "label": "Slip through the skull arch",
             "next": "n06"
           },
           {
             "key": "ArrowRight",
-            "label": "The flooded gallery",
+            "label": "Follow the wet footprints",
             "next": "n07"
           }
         ],
@@ -71,7 +71,7 @@
     "n04": {
       "src": "clips/n04.mp4",
       "duration": 15.616,
-      "title": "The rotten stair",
+      "title": "The Rotten Stair",
       "choice": {
         "at": 12.616,
         "window": 3.0,
@@ -93,19 +93,19 @@
     "n05": {
       "src": "clips/n05.mp4",
       "duration": 15.616,
-      "title": "The chapter house",
+      "title": "The Chapter House",
       "choice": {
         "at": 12.616,
         "window": 3.0,
         "options": [
           {
             "key": "ArrowUp",
-            "label": "The organ loft",
+            "label": "Climb to the organ loft",
             "next": "n10"
           },
           {
             "key": "ArrowRight",
-            "label": "The scriptorium",
+            "label": "Slip into the scriptorium",
             "next": "n11"
           }
         ],
@@ -115,7 +115,7 @@
     "n06": {
       "src": "clips/n06.mp4",
       "duration": 15.616,
-      "title": "The ossuary",
+      "title": "The Bell Shaft",
       "choice": {
         "at": 12.616,
         "window": 3.0,
@@ -137,7 +137,7 @@
     "n07": {
       "src": "clips/n07.mp4",
       "duration": 15.616,
-      "title": "The drowned nave",
+      "title": "The Drowned Nave",
       "choice": {
         "at": 12.616,
         "window": 3.0,
@@ -148,8 +148,8 @@
             "next": "n14"
           },
           {
-            "key": "ArrowDown",
-            "label": "Drift on the pew",
+            "key": "ArrowRight",
+            "label": "Pole down the water lane",
             "next": "n15"
           }
         ],
@@ -159,49 +159,49 @@
     "n08": {
       "src": "clips/n08.mp4",
       "duration": 15.616,
-      "title": "The many hands",
+      "title": "The Many Hands",
       "outcome": "lose"
     },
     "n09": {
       "src": "clips/n09.mp4",
       "duration": 15.616,
-      "title": "The bell",
+      "title": "The Last Toll",
       "outcome": "win"
     },
     "n10": {
       "src": "clips/n10.mp4",
       "duration": 15.616,
-      "title": "The organist",
+      "title": "The Organist",
       "outcome": "lose"
     },
     "n11": {
       "src": "clips/n11.mp4",
       "duration": 15.616,
-      "title": "The illuminated initial",
+      "title": "The Illuminated Initial",
       "outcome": "lose"
     },
     "n12": {
       "src": "clips/n12.mp4",
       "duration": 15.616,
-      "title": "The clapper",
+      "title": "The Clapper",
       "outcome": "lose"
     },
     "n13": {
       "src": "clips/n13.mp4",
       "duration": 15.616,
-      "title": "The funeral",
+      "title": "The Reserved Coffin",
       "outcome": "lose"
     },
     "n14": {
       "src": "clips/n14.mp4",
       "duration": 15.616,
-      "title": "The parishioner",
+      "title": "The Parishioner",
       "outcome": "lose"
     },
     "n15": {
       "src": "clips/n15.mp4",
       "duration": 15.616,
-      "title": "The ferryman's fare",
+      "title": "The Ferryman's Fare",
       "outcome": "lose"
     }
   }

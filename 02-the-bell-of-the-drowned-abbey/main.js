@@ -293,7 +293,7 @@ function showEnd(outcome) {
   const names = path.map((id) => manifest.clips[id].title || id);
   $("endPath").innerHTML =
     `Your path: ${names.join(" → ")}` +
-    (outcome === "win" ? "<br>Bravely done." : "<br>The abbey sinks with its bell unrung. Try once more.");
+    (outcome === "win" ? "<br>The Dead May Rest!" : "<br>The abbey keeps its guests. Try once more.");
   restartBtn.focus();
 }
 
