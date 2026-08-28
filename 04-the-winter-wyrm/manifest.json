@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Winter Wyrm",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 16.544,
+      "title": "The Glacier's Foot",
+      "choice": {
+        "at": 13.544,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Cross the ice bridge",
+            "next": "n03"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Take the switchback trail",
+            "next": "n02"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 15.616,
+      "title": "The Statue Row",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Duck into the gallery alcove",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Push on along the ridge",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 15.616,
+      "title": "The Blizzard Col",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Push straight into the whiteout",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Circle the rock spine",
+            "next": "n07"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 15.616,
+      "title": "The Frozen Gallery",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Strike a heroic pose for the gallery",
+            "next": "n08"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb the overhanging snow shelf",
+            "next": "n09"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 15.616,
+      "title": "The Wind-Carved Ridge",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Hurry along toward the summit",
+            "next": "n11"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Leap the crevasse in a running attack",
+            "next": "n10"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 15.616,
+      "title": "The Wyrm's Threshold",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Let out a battle cry",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Raise your shield to its breath",
+            "next": "n13"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 15.616,
+      "title": "The Sun-Stone Cradle",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Grab the sun-stone with both hands",
+            "next": "n15"
+          },
+          {
+            "key": "ArrowLeft",
+            "label": "Slice the ice tether",
+            "next": "n14"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 15.616,
+      "title": "The Gallery Addition",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 15.616,
+      "title": "The Snowman Trap",
+      "outcome": "lose"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 15.616,
+      "title": "The Crevasse Dive",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 15.616,
+      "title": "The Snowball Effect",
+      "outcome": "lose"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 15.616,
+      "title": "The Icicle Stalactite",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 15.616,
+      "title": "The Frostbite Mirror",
+      "outcome": "lose"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 15.616,
+      "title": "The Glacial Slide",
+      "outcome": "win"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 15.616,
+      "title": "The Sun-Stone Solar Flare",
+      "outcome": "lose"
+    }
+  }
+}

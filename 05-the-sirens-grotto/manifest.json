@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Siren's Grotto",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 16.544,
+      "title": "The Waterline",
+      "choice": {
+        "at": 13.544,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowRight",
+            "label": "Ascend the slick kelp reef",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowLeft",
+            "label": "Take the stone archway",
+            "next": "n03"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 15.616,
+      "title": "The Rising Surge",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Climb toward the high ledge",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Cross toward the deep pool edge",
+            "next": "n05"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 15.616,
+      "title": "The Echoing Tunnel",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Approach the altar head-on",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Circle behind via the rock spine",
+            "next": "n07"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 15.616,
+      "title": "The Coral Shelf",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Reflect her song with your shield",
+            "next": "n08"
+          },
+          {
+            "key": "ArrowLeft",
+            "label": "Plug your ears with boat pitch",
+            "next": "n09"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 12.064,
+      "title": "The Clam Ledge",
+      "choice": {
+        "at": 9.064,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Use your shield to reflect light at her",
+            "next": "n10"
+          },
+          {
+            "key": "ArrowDown",
+            "label": "Leap off the rock to crush her",
+            "next": "n11"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 9.248,
+      "title": "The Cavern Throat",
+      "choice": {
+        "at": 6.248,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Find the buried brass war-horn and blow it to drown her out",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Lever the giant pearl off the altar with your sword",
+            "next": "n13"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 15.616,
+      "title": "The Altar's Rear",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Tie your anchor rope to the pearl to hoist it out",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Grab the glowing sea anemones for handholds",
+            "next": "n15"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 17.024,
+      "title": "The Acoustic Reflection",
+      "outcome": "win"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 17.024,
+      "title": "The Earwax Mistake",
+      "outcome": "lose"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 17.024,
+      "title": "The Mirror Shield Blindness",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 17.024,
+      "title": "The Submerged Armor",
+      "outcome": "lose"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 17.024,
+      "title": "The Siren Call Mimic",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 17.024,
+      "title": "The Greedy Swimmer",
+      "outcome": "lose"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 17.024,
+      "title": "The Moonlit Anchor Pull",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 17.024,
+      "title": "The Coral Trap",
+      "outcome": "lose"
+    }
+  }
+}
