@@ -1,0 +1,232 @@
+{
+  "title": "A Knight's Errand: The Goblin Fair",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 16.544,
+      "title": "The Midnight Market",
+      "choice": {
+        "at": 13.544,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Play Shell Game",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Play Fishing for Ducks",
+            "next": "n03"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 15.616,
+      "title": "Shell Game Stall",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Pick up the left shell",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Slam the table",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 15.616,
+      "title": "Fishing For Ducks Stall",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Be cautious",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Be swift",
+            "next": "n07"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 15.616,
+      "title": "Shell Game Lose",
+      "next": "n18"
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 15.616,
+      "title": "Shell Game Win",
+      "next": "n08"
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 15.616,
+      "title": "Fishing For Ducks Win",
+      "next": "n08"
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 15.616,
+      "title": "Fishing For Ducks Lose",
+      "next": "n18"
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 15.616,
+      "title": "Second Round Stalls",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Play Coin Toss Game",
+            "next": "n09"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Play Unicorn Horn Game",
+            "next": "n10"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 15.616,
+      "title": "Coin Toss Stall",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Throw straight",
+            "next": "n11"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Throw high",
+            "next": "n12"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 15.616,
+      "title": "Unicorn Horn Stall",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Throw straight",
+            "next": "n13"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Throw high",
+            "next": "n14"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 15.616,
+      "title": "Coin Toss Stall Lose",
+      "next": "n18"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 15.616,
+      "title": "Coin Toss Stall Win",
+      "next": "n15"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 15.616,
+      "title": "Unicorn Horn Stall Win",
+      "next": "n15"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 15.616,
+      "title": "Unicorn Horn Stall Lose",
+      "next": "n18"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 15.616,
+      "title": "Final Stall - Tug O' War",
+      "choice": {
+        "at": 12.616,
+        "window": 3.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Pull hard",
+            "next": "n16"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Let go",
+            "next": "n17"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n16": {
+      "src": "clips/n16.mp4",
+      "duration": 15.616,
+      "title": "Final Stall - Lose",
+      "next": "n18"
+    },
+    "n17": {
+      "src": "clips/n17.mp4",
+      "duration": 15.616,
+      "title": "Final Stall - Win",
+      "next": "n19"
+    },
+    "n18": {
+      "src": "clips/n18.mp4",
+      "duration": 15.616,
+      "title": "The Forever Carnival",
+      "outcome": "lose"
+    },
+    "n19": {
+      "src": "clips/n19.mp4",
+      "duration": 15.616,
+      "title": "The Freed Souls",
+      "outcome": "win"
+    }
+  }
+}
