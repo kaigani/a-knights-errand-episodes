@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Clockmaker's Tower",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 25.024,
+      "title": "The Great Pendulum",
+      "choice": {
+        "at": 8.024,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n03"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n02"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 17.024,
+      "title": "Squashed Flat",
+      "outcome": "lose"
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 25.536,
+      "title": "The Gear Stair",
+      "choice": {
+        "at": 8.536,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 17.024,
+      "title": "Into the Works",
+      "outcome": "lose"
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 25.536,
+      "title": "The Cuckoo Door",
+      "choice": {
+        "at": 8.536,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n07"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 17.024,
+      "title": "Cuckoo Feast",
+      "outcome": "lose"
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 25.536,
+      "title": "The Piston Floor",
+      "choice": {
+        "at": 8.536,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n09"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n08"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 17.024,
+      "title": "Pinned to the Ceiling",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 25.536,
+      "title": "The Rollers",
+      "choice": {
+        "at": 8.536,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n11"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n10"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 17.024,
+      "title": "The Bookmark",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 25.536,
+      "title": "The Escapement",
+      "choice": {
+        "at": 8.536,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n13"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n12"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 17.024,
+      "title": "Out the Window",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 25.536,
+      "title": "The Bell and the Minute Hand",
+      "choice": {
+        "at": 8.536,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "On the DING",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "On the DONG",
+            "next": "n15"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 17.024,
+      "title": "The Clapper",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 17.024,
+      "title": "Midnight",
+      "outcome": "win"
+    }
+  }
+}
