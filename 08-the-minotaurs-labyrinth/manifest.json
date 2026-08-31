@@ -1,0 +1,1252 @@
+{
+  "title": "A Knight's Errand: The Minotaur's Labyrinth",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/ENTER.mp4",
+      "duration": 12.064,
+      "title": "Enter the Labyrinth",
+      "choice": {
+        "at": 8.564,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n19"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n02": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n03"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n03": {
+      "src": "clips/TURN-A.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the fallen column",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n05"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n04"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n04": {
+      "src": "clips/ENTRANCE-R.mp4",
+      "duration": 7.808,
+      "title": "The entrance, to the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n19"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n20"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n05": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n21"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n06": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n07"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n08"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n07": {
+      "src": "clips/TURN-B.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the wrecked cart",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n08"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n17"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n08": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n09"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n10"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n09": {
+      "src": "clips/TURN-C.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the shield rack",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n10"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n16"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n10": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n11"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n21"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n11": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n13"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n12": {
+      "src": "clips/TURN-D.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the root and sapling",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n13"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n14"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n13": {
+      "src": "clips/ENTRANCE-L.mp4",
+      "duration": 7.808,
+      "title": "The entrance, to the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n20"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n02"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n14": {
+      "src": "clips/L1-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n21"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n15"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n15": {
+      "src": "clips/L1-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n16"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n09"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n16": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n17"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n07"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n17": {
+      "src": "clips/L1-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n21"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n18"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n18": {
+      "src": "clips/L1-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n03"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n19": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n12"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n20": {
+      "src": "clips/FAIL-EXIT.mp4",
+      "duration": 7.808,
+      "title": "Out empty-handed",
+      "outcome": "lose"
+    },
+    "n21": {
+      "src": "clips/DESCEND.mp4",
+      "duration": 12.064,
+      "title": "Down to Level Two",
+      "choice": {
+        "at": 8.564,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n37"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n22"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n22": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n23"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n30"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n23": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n24"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n25"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n24": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n33"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n39"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n25": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n40"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n26"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n26": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n27"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n31"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n27": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n28"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n32"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n28": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n29"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n33"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n29": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n25"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n44"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n30": {
+      "src": "clips/LAIR.mp4",
+      "duration": 7.808,
+      "title": "The Minotaur's Lair",
+      "outcome": "lose"
+    },
+    "n31": {
+      "src": "clips/TURN-E.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the chained gate",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n42"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n27"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n32": {
+      "src": "clips/TURN-F.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the cistern",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n41"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n28"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n33": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n34"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n35"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n34": {
+      "src": "clips/STAIRS-R.mp4",
+      "duration": 7.808,
+      "title": "The stairs up, to the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n22"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n50"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n35": {
+      "src": "clips/TURN-G.mp4",
+      "duration": 7.808,
+      "title": "Dead end: the tally wall",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n38"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n34"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n36": {
+      "src": "clips/STAIRS-L.mp4",
+      "duration": 7.808,
+      "title": "The stairs up, to the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n50"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n37"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n37": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n35"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n38"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n38": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n39"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n29"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n39": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n32"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n41"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n40": {
+      "src": "clips/SHRINE.mp4",
+      "duration": 15.616,
+      "title": "The Chalice Shrine",
+      "choice": {
+        "at": 12.116,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "h02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "r01"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n41": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n31"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n42"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n42": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n43"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n40"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n43": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "n44"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n24"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n44": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n30"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n36"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n50": {
+      "src": "clips/ASCEND.mp4",
+      "duration": 12.064,
+      "title": "Up to Level One",
+      "choice": {
+        "at": 8.564,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n51"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n52"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n51": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n18"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n06"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n52": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "n15"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "n11"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "r01": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "r02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "h01"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "r02": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "h03"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "r03"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "r03": {
+      "src": "clips/STAIRS-L.mp4",
+      "duration": 7.808,
+      "title": "The stairs up, to the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "r04"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "h02"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "r04": {
+      "src": "clips/ASCEND.mp4",
+      "duration": 12.064,
+      "title": "Up to Level One",
+      "choice": {
+        "at": 8.564,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "r05"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "r06"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "r05": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "r07"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "h01"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "r06": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "h01"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "r09"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "r07": {
+      "src": "clips/L1-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "r08"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "h02"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "r08": {
+      "src": "clips/ENTRANCE-R.mp4",
+      "duration": 7.808,
+      "title": "The entrance, to the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "h01"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "r10"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "r09": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "h02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Right",
+            "next": "r11"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "r10": {
+      "src": "clips/WIN.mp4",
+      "duration": 11.36,
+      "title": "Out with the chalice",
+      "outcome": "win"
+    },
+    "r11": {
+      "src": "clips/ENTRANCE-L.mp4",
+      "duration": 7.808,
+      "title": "The entrance, to the left",
+      "choice": {
+        "at": 4.308,
+        "window": 3.5,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Left",
+            "next": "r10"
+          },
+          {
+            "key": "ArrowUp",
+            "label": "Forward",
+            "next": "h02"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "h01": {
+      "src": "clips/HUNT-AHEAD.mp4",
+      "duration": 8.708,
+      "title": "Caught from ahead",
+      "outcome": "lose"
+    },
+    "h02": {
+      "src": "clips/HUNT-BEHIND.mp4",
+      "duration": 8.708,
+      "title": "Caught from behind",
+      "outcome": "lose"
+    },
+    "h03": {
+      "src": "clips/HUNT-EMPTY-LAIR.mp4",
+      "duration": 8.708,
+      "title": "Cornered in the empty lair",
+      "outcome": "lose"
+    }
+  }
+}
