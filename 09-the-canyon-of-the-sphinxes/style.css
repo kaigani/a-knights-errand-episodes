@@ -1,0 +1,283 @@
+/* A Knight's Errand — Dragon's Lair-style QTE player, MOBILE VERTICAL (9:16).
+ * Portrait-first: the stage is a 576/1024 picture sized to the viewport with
+ * the QTE bar beneath it; on desktop the same layout renders as a centered
+ * phone-shaped column. Touch targets >= 44px; safe-area insets respected. */
+
+:root {
+  --gold: #d4a94e;
+  --gold-bright: #f3cf7a;
+  --ink: #0d0b10;
+  --panel: #17131d;
+  --parchment: #e8dcc0;
+  --danger: #b3452f;
+  --barh: 118px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  background: var(--ink);
+  color: var(--parchment);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  overflow: hidden;
+  touch-action: manipulation;          /* no double-tap zoom delay */
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  height: 100vh;
+  height: 100dvh;                      /* mobile browser chrome-aware */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 8px calc(8px + env(safe-area-inset-bottom));
+}
+
+/* ------------------------------------------------- stage (9:16 portrait) */
+
+#stage {
+  position: relative;
+  aspect-ratio: 576 / 1024;
+  height: calc(100% - var(--barh) - 10px);
+  max-width: 100%;
+  background: #000;
+  border: 1px solid #2c2436;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 80px rgba(212, 169, 78, 0.07), 0 24px 60px rgba(0,0,0,.6);
+}
+
+#stage video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#vidA { z-index: 2; }
+#vidB { z-index: 1; }
+
+/* ------------------------------------------------------------- panels */
+
+.panel {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  text-align: center;
+  background:
+    radial-gradient(ellipse at center, rgba(23,19,29,.55) 0%, rgba(13,11,16,.95) 100%);
+}
+.panel.visible { display: flex; }
+
+/* title screen: attract video plays underneath the instruction card */
+#title { background: #000; }
+
+#splashvid {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+#titlecard {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  max-width: 92%;
+  padding: 20px 22px 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(212, 169, 78, 0.28);
+  background: rgba(0, 0, 0, 0.2);      /* 80% transparent black */
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+}
+#titlecard .tagline { text-shadow: 0 1px 8px rgba(0,0,0,.8); }
+
+/* game-title logo art, large and outside the instruction card */
+#titlelogo {
+  position: relative;
+  z-index: 1;
+  width: min(88%, 460px);
+  height: auto;
+  filter: drop-shadow(0 5px 22px rgba(0, 0, 0, 0.75));
+}
+
+/* end-screen title art */
+#endlogo {
+  width: min(84%, 420px);
+  height: auto;
+  filter: drop-shadow(0 4px 18px rgba(0, 0, 0, 0.75));
+}
+
+/* ------------------------------------------------ persistent sound toggle */
+
+#mutebtn {
+  position: absolute;
+  top: calc(10px + env(safe-area-inset-top));
+  right: 10px;
+  z-index: 30;
+  width: 52px;
+  height: 52px;
+  padding: 6px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;               /* 50% transparent over the picture */
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+#mutebtn:hover { opacity: 0.9; }
+#mutebtn:active { transform: scale(0.92); }
+#mutebtn img { width: 100%; height: 100%; }
+
+.panel h1 {
+  font-size: clamp(26px, 7vw, 44px);
+  font-weight: 600;
+  letter-spacing: .06em;
+  color: var(--gold-bright);
+  text-shadow: 0 2px 24px rgba(212,169,78,.35);
+}
+
+.tagline {
+  font-size: clamp(13px, 3.6vw, 17px);
+  line-height: 1.6;
+  color: var(--parchment);
+  opacity: .85;
+}
+
+.fineprint { font-size: 12px; opacity: .4; letter-spacing: .08em; }
+
+.panel button {
+  font: inherit;
+  font-size: clamp(16px, 4.5vw, 21px);
+  letter-spacing: .12em;
+  padding: 13px 38px;
+  min-height: 48px;
+  color: var(--ink);
+  background: linear-gradient(180deg, var(--gold-bright), var(--gold));
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease, opacity .2s;
+}
+.panel button:enabled:hover { transform: translateY(-1px); box-shadow: 0 6px 24px rgba(212,169,78,.35); }
+.panel button:disabled { opacity: .45; cursor: default; }
+
+#loadwrap { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+#loadbar {
+  width: min(240px, 70vw); height: 6px;
+  background: #241d2e;
+  border-radius: 3px;
+  overflow: hidden;
+}
+#loadfill {
+  width: 0%; height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--gold-bright));
+  transition: width .15s ease;
+}
+
+#end.win h1 { color: var(--gold-bright); }
+#end.lose h1 { color: var(--danger); text-shadow: 0 2px 24px rgba(179,69,47,.4); }
+
+/* --------------------------------------------------------- choice bar */
+
+#choicebar {
+  height: var(--barh);
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  visibility: hidden;
+}
+#choicebar.visible { visibility: visible; }
+
+.choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 220px;
+  min-height: 92px;                    /* generous thumb target */
+  padding: 10px 8px 9px;
+  font: inherit;
+  color: var(--parchment);
+  background: linear-gradient(180deg, #1d1726, var(--panel));
+  border: 1px solid #3a2f4b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform .1s ease, border-color .15s, box-shadow .15s, opacity .25s;
+}
+.choice:hover { border-color: var(--gold); }
+.choice:active { transform: scale(0.97); }
+
+.choice .glyph {
+  font-size: 30px;
+  line-height: 1;
+  color: var(--gold);
+}
+.choice .label {
+  font-size: clamp(11px, 3vw, 14px);
+  line-height: 1.15;
+  letter-spacing: .04em;
+  white-space: normal;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-width: 100%;
+}
+
+.choice.selected {
+  border-color: var(--gold-bright);
+  box-shadow: 0 0 26px rgba(212,169,78,.45), inset 0 0 14px rgba(212,169,78,.15);
+  transform: scale(1.05);
+}
+.choice.selected .glyph { color: var(--gold-bright); }
+.choice.dimmed { opacity: .3; }
+
+/* countdown ring */
+#ring { width: 48px; height: 48px; flex: 0 0 auto; transform: rotate(-90deg); }
+.ring-bg { fill: none; stroke: #2a2235; stroke-width: 5; }
+.ring-fg {
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-dasharray: 125.66;   /* 2πr, r=20 */
+  stroke-dashoffset: 0;
+}
+#ring.frozen .ring-fg { stroke: var(--gold-bright); }
+
+/* ------------------------------------------------------------- debug HUD */
+
+#hud {
+  position: fixed;
+  right: 10px; bottom: 10px;
+  z-index: 99;
+  display: none;
+  font: 11px/1.5 Menlo, monospace;
+  color: #9ff09f;
+  background: rgba(0,0,0,.72);
+  padding: 8px 10px;
+  border-radius: 4px;
+  white-space: pre;
+}
+#hud.visible { display: block; }

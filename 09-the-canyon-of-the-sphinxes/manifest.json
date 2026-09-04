@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Canyon of the Sphinxes",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 50.528,
+      "title": "The Whispering Minions",
+      "choice": {
+        "at": 33.528,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Green fez: Guardian",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Green fez: Deceiver",
+            "next": "n03"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 17.002,
+      "title": "He Believed Me",
+      "outcome": "lose"
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 42.517,
+      "title": "The Sharp-Eyed One",
+      "choice": {
+        "at": 25.517,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Blue fez: Deceiver",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Blue fez: Guardian",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 17.002,
+      "title": "The Honest One Weeps",
+      "outcome": "lose"
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 34.005,
+      "title": "The Whisper Itself",
+      "choice": {
+        "at": 17.005,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Red fez said Guardian",
+            "next": "n07"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Red fez said Deceiver",
+            "next": "n06"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 17.002,
+      "title": "The Silent One Speaks",
+      "outcome": "lose"
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 51.008,
+      "title": "The Twin Accusations",
+      "choice": {
+        "at": 34.008,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Green fez: Guardian",
+            "next": "n08"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Green fez: Deceiver",
+            "next": "n09"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 17.002,
+      "title": "Blown Out",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 34.005,
+      "title": "The Brother Who Said Nothing",
+      "choice": {
+        "at": 17.005,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Blue fez: Deceiver",
+            "next": "n10"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Blue fez: Guardian",
+            "next": "n11"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 25.514,
+      "title": "The Hourglass",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 51.008,
+      "title": "The Divided Paths",
+      "choice": {
+        "at": 34.008,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Ask red fez: Does your path lead out?",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Ask red fez: Would blue fez say yes?",
+            "next": "n13"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 25.514,
+      "title": "The Confident Stride",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 34.005,
+      "title": "Yes",
+      "choice": {
+        "at": 17.005,
+        "window": 17.0,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Take red-fez path",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Take blue-fez path",
+            "next": "n15"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 17.002,
+      "title": "Added to the Drift",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 25.514,
+      "title": "Open Sky",
+      "outcome": "win"
+    }
+  }
+}
