@@ -4,82 +4,130 @@
   "clips": {
     "n01": {
       "src": "clips/ENTER.mp4",
-      "duration": 12.064,
+      "duration": 9.44,
       "title": "Enter the Labyrinth",
+      "next": "n01_X"
+    },
+    "n01_X": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
       "choice": {
-        "at": 8.564,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n02"
+            "next": "n01_X_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n19"
+            "next": "n01_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n01_X_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n02"
+    },
+    "n01_X_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n19"
     },
     "n02": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n03"
+            "next": "n02_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n05"
+            "next": "n02_R"
           }
         ],
         "default": 0
       }
     },
+    "n02_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n03"
+    },
+    "n02_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n05"
+    },
     "n03": {
       "src": "clips/TURN-A.mp4",
-      "duration": 7.808,
+      "duration": 8.512,
       "title": "Dead end: the fallen column",
+      "next": "n03_X"
+    },
+    "n03_X": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n05"
+            "next": "n03_X_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n04"
+            "next": "n03_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n03_X_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n05"
+    },
+    "n03_X_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n04"
     },
     "n04": {
       "src": "clips/ENTRANCE-R.mp4",
       "duration": 7.808,
-      "title": "The entrance, to the right",
+      "title": "The entrance, off to the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n19"
+            "next": "n04_F"
           },
           {
             "key": "ArrowRight",
@@ -90,189 +138,309 @@
         "default": 1
       }
     },
+    "n04_F": {
+      "src": "clips/L1-DEP-DOOR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the door",
+      "next": "n19"
+    },
     "n05": {
       "src": "clips/L1-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n06"
+            "next": "n05_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n21"
+            "next": "n05_R"
           }
         ],
         "default": 0
       }
+    },
+    "n05_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n06"
+    },
+    "n05_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n21"
     },
     "n06": {
       "src": "clips/L1-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n07"
+            "next": "n06_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n08"
+            "next": "n06_R"
           }
         ],
         "default": 0
       }
     },
+    "n06_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n07"
+    },
+    "n06_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n08"
+    },
     "n07": {
       "src": "clips/TURN-B.mp4",
+      "duration": 8.512,
+      "title": "Dead end: the wrecked hand-cart",
+      "next": "n07_X"
+    },
+    "n07_X": {
+      "src": "clips/L1-LF.mp4",
       "duration": 7.808,
-      "title": "Dead end: the wrecked cart",
+      "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n08"
+            "next": "n07_X_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n17"
+            "next": "n07_X_F"
           }
         ],
         "default": 0
       }
+    },
+    "n07_X_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n08"
+    },
+    "n07_X_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n17"
     },
     "n08": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n09"
+            "next": "n08_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n10"
+            "next": "n08_R"
           }
         ],
         "default": 0
       }
     },
+    "n08_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n09"
+    },
+    "n08_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n10"
+    },
     "n09": {
       "src": "clips/TURN-C.mp4",
-      "duration": 7.808,
+      "duration": 8.512,
       "title": "Dead end: the shield rack",
+      "next": "n09_X"
+    },
+    "n09_X": {
+      "src": "clips/L1-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n10"
+            "next": "n09_X_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n16"
+            "next": "n09_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n09_X_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n10"
+    },
+    "n09_X_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n16"
     },
     "n10": {
       "src": "clips/L1-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n11"
+            "next": "n10_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n21"
+            "next": "n10_R"
           }
         ],
         "default": 0
       }
+    },
+    "n10_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n11"
+    },
+    "n10_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n21"
     },
     "n11": {
       "src": "clips/L1-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n12"
+            "next": "n11_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n13"
+            "next": "n11_R"
           }
         ],
         "default": 0
       }
     },
+    "n11_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n12"
+    },
+    "n11_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n13"
+    },
     "n12": {
       "src": "clips/TURN-D.mp4",
-      "duration": 7.808,
+      "duration": 8.512,
       "title": "Dead end: the root and sapling",
+      "next": "n12_X"
+    },
+    "n12_X": {
+      "src": "clips/L1-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n13"
+            "next": "n12_X_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n14"
+            "next": "n12_X_F"
           }
         ],
         "default": 0
       }
     },
+    "n12_X_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n13"
+    },
+    "n12_X_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n14"
+    },
     "n13": {
       "src": "clips/ENTRANCE-L.mp4",
       "duration": 7.808,
-      "title": "The entrance, to the left",
+      "title": "The entrance, off to the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
@@ -282,143 +450,221 @@
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n02"
+            "next": "n13_F"
           }
         ],
         "default": 0
       }
+    },
+    "n13_F": {
+      "src": "clips/L1-DEP-DOOR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the door",
+      "next": "n02"
     },
     "n14": {
       "src": "clips/L1-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n21"
+            "next": "n14_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n15"
+            "next": "n14_F"
           }
         ],
         "default": 0
       }
+    },
+    "n14_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n21"
+    },
+    "n14_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n15"
     },
     "n15": {
       "src": "clips/L1-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n16"
+            "next": "n15_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n09"
+            "next": "n15_F"
           }
         ],
         "default": 0
       }
+    },
+    "n15_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n16"
+    },
+    "n15_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n09"
     },
     "n16": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n17"
+            "next": "n16_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n07"
+            "next": "n16_R"
           }
         ],
         "default": 0
       }
+    },
+    "n16_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n17"
+    },
+    "n16_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n07"
     },
     "n17": {
       "src": "clips/L1-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n21"
+            "next": "n17_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n18"
+            "next": "n17_F"
           }
         ],
         "default": 0
       }
+    },
+    "n17_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n21"
+    },
+    "n17_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n18"
     },
     "n18": {
       "src": "clips/L1-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n04"
+            "next": "n18_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n03"
+            "next": "n18_F"
           }
         ],
         "default": 0
       }
+    },
+    "n18_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n04"
+    },
+    "n18_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n03"
     },
     "n19": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n14"
+            "next": "n19_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n12"
+            "next": "n19_R"
           }
         ],
         "default": 0
       }
+    },
+    "n19_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n14"
+    },
+    "n19_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n12"
     },
     "n20": {
       "src": "clips/FAIL-EXIT.mp4",
@@ -430,199 +676,313 @@
       "src": "clips/DESCEND.mp4",
       "duration": 12.064,
       "title": "Down to Level Two",
+      "next": "n21_X"
+    },
+    "n21_X": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
       "choice": {
-        "at": 8.564,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n37"
+            "next": "n21_X_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n22"
+            "next": "n21_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n21_X_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n37"
+    },
+    "n21_X_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n22"
     },
     "n22": {
       "src": "clips/L2-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n23"
+            "next": "n22_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n30"
+            "next": "n22_F"
           }
         ],
         "default": 1
       }
+    },
+    "n22_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n23"
+    },
+    "n22_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n30"
     },
     "n23": {
       "src": "clips/L2-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n24"
+            "next": "n23_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n25"
+            "next": "n23_F"
           }
         ],
         "default": 0
       }
+    },
+    "n23_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n24"
+    },
+    "n23_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n25"
     },
     "n24": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n33"
+            "next": "n24_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n39"
+            "next": "n24_R"
           }
         ],
         "default": 0
       }
+    },
+    "n24_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n33"
+    },
+    "n24_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n39"
     },
     "n25": {
       "src": "clips/L2-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n40"
+            "next": "n25_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n26"
+            "next": "n25_F"
           }
         ],
         "default": 0
       }
+    },
+    "n25_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n40"
+    },
+    "n25_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n26"
     },
     "n26": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n27"
+            "next": "n26_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n31"
+            "next": "n26_R"
           }
         ],
         "default": 0
       }
+    },
+    "n26_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n27"
+    },
+    "n26_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n31"
     },
     "n27": {
       "src": "clips/L2-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n28"
+            "next": "n27_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n32"
+            "next": "n27_F"
           }
         ],
         "default": 0
       }
+    },
+    "n27_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n28"
+    },
+    "n27_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n32"
     },
     "n28": {
       "src": "clips/L2-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n29"
+            "next": "n28_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n33"
+            "next": "n28_F"
           }
         ],
         "default": 0
       }
+    },
+    "n28_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n29"
+    },
+    "n28_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n33"
     },
     "n29": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n25"
+            "next": "n29_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n44"
+            "next": "n29_R"
           }
         ],
         "default": 0
       }
+    },
+    "n29_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n25"
+    },
+    "n29_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n44"
     },
     "n30": {
       "src": "clips/LAIR.mp4",
@@ -632,82 +992,130 @@
     },
     "n31": {
       "src": "clips/TURN-E.mp4",
-      "duration": 7.808,
+      "duration": 8.512,
       "title": "Dead end: the chained gate",
+      "next": "n31_X"
+    },
+    "n31_X": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n42"
+            "next": "n31_X_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n27"
+            "next": "n31_X_F"
           }
         ],
         "default": 0
       }
     },
+    "n31_X_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n42"
+    },
+    "n31_X_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n27"
+    },
     "n32": {
       "src": "clips/TURN-F.mp4",
-      "duration": 7.808,
+      "duration": 8.512,
       "title": "Dead end: the cistern",
+      "next": "n32_X"
+    },
+    "n32_X": {
+      "src": "clips/L2-FR.mp4",
+      "duration": 7.808,
+      "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n41"
+            "next": "n32_X_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n28"
+            "next": "n32_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n32_X_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n41"
+    },
+    "n32_X_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n28"
     },
     "n33": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n34"
+            "next": "n33_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n35"
+            "next": "n33_R"
           }
         ],
         "default": 0
       }
+    },
+    "n33_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n34"
+    },
+    "n33_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n35"
     },
     "n34": {
       "src": "clips/STAIRS-R.mp4",
       "duration": 7.808,
-      "title": "The stairs up, to the right",
+      "title": "The stairs up, off to the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n22"
+            "next": "n34_F"
           },
           {
             "key": "ArrowRight",
@@ -718,35 +1126,59 @@
         "default": 0
       }
     },
+    "n34_F": {
+      "src": "clips/L2-DEP-STAIRS-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the stairs",
+      "next": "n22"
+    },
     "n35": {
       "src": "clips/TURN-G.mp4",
-      "duration": 7.808,
+      "duration": 8.512,
       "title": "Dead end: the tally wall",
+      "next": "n35_X"
+    },
+    "n35_X": {
+      "src": "clips/L2-LF.mp4",
+      "duration": 7.808,
+      "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n38"
+            "next": "n35_X_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n34"
+            "next": "n35_X_F"
           }
         ],
         "default": 0
       }
     },
+    "n35_X_L": {
+      "src": "clips/L2-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "n38"
+    },
+    "n35_X_F": {
+      "src": "clips/L2-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "n34"
+    },
     "n36": {
       "src": "clips/STAIRS-L.mp4",
       "duration": 7.808,
-      "title": "The stairs up, to the left",
+      "title": "The stairs up, off to the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
@@ -756,305 +1188,479 @@
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n37"
+            "next": "n36_F"
           }
         ],
         "default": 0
       }
+    },
+    "n36_F": {
+      "src": "clips/L2-DEP-STAIRS-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the stairs",
+      "next": "n37"
     },
     "n37": {
       "src": "clips/L2-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n35"
+            "next": "n37_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n38"
+            "next": "n37_R"
           }
         ],
         "default": 0
       }
+    },
+    "n37_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n35"
+    },
+    "n37_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n38"
     },
     "n38": {
       "src": "clips/L2-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n39"
+            "next": "n38_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n29"
+            "next": "n38_R"
           }
         ],
         "default": 0
       }
+    },
+    "n38_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n39"
+    },
+    "n38_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n29"
     },
     "n39": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n32"
+            "next": "n39_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n41"
+            "next": "n39_R"
           }
         ],
         "default": 0
       }
     },
+    "n39_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n32"
+    },
+    "n39_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n41"
+    },
     "n40": {
       "src": "clips/SHRINE.mp4",
-      "duration": 15.616,
+      "duration": 12.064,
       "title": "The Chalice Shrine",
+      "next": "n40_X"
+    },
+    "n40_X": {
+      "src": "clips/L2-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
       "choice": {
-        "at": 12.116,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "h02"
+            "next": "n40_X_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "r01"
+            "next": "n40_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n40_X_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "h02"
+    },
+    "n40_X_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "r01"
     },
     "n41": {
       "src": "clips/L2-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n31"
+            "next": "n41_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n42"
+            "next": "n41_R"
           }
         ],
         "default": 0
       }
+    },
+    "n41_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n31"
+    },
+    "n41_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n42"
     },
     "n42": {
       "src": "clips/L2-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n43"
+            "next": "n42_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n40"
+            "next": "n42_R"
           }
         ],
         "default": 0
       }
+    },
+    "n42_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n43"
+    },
+    "n42_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n40"
     },
     "n43": {
       "src": "clips/L2-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "n44"
+            "next": "n43_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n24"
+            "next": "n43_R"
           }
         ],
         "default": 0
       }
+    },
+    "n43_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "n44"
+    },
+    "n43_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "n24"
     },
     "n44": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n30"
+            "next": "n44_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n36"
+            "next": "n44_R"
           }
         ],
         "default": 0
       }
     },
+    "n44_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n30"
+    },
+    "n44_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n36"
+    },
     "n50": {
       "src": "clips/ASCEND.mp4",
-      "duration": 12.064,
+      "duration": 8.512,
       "title": "Up to Level One",
+      "next": "n50_X"
+    },
+    "n50_X": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
       "choice": {
-        "at": 8.564,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n51"
+            "next": "n50_X_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n52"
+            "next": "n50_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "n50_X_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n51"
+    },
+    "n50_X_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n52"
     },
     "n51": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n18"
+            "next": "n51_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n06"
+            "next": "n51_R"
           }
         ],
         "default": 0
       }
+    },
+    "n51_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n18"
+    },
+    "n51_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n06"
     },
     "n52": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "n15"
+            "next": "n52_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "n11"
+            "next": "n52_R"
           }
         ],
         "default": 0
       }
+    },
+    "n52_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "n15"
+    },
+    "n52_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "n11"
     },
     "r01": {
       "src": "clips/L2-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "r02"
+            "next": "r01_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "h01"
+            "next": "r01_R"
           }
         ],
         "default": 1
       }
+    },
+    "r01_F": {
+      "src": "clips/L2-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "r02"
+    },
+    "r01_R": {
+      "src": "clips/L2-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "h01"
     },
     "r02": {
       "src": "clips/L2-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "h03"
+            "next": "r02_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "r03"
+            "next": "r02_R"
           }
         ],
         "default": 0
       }
     },
+    "r02_L": {
+      "src": "clips/L2-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "h03"
+    },
+    "r02_R": {
+      "src": "clips/L2-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "r03"
+    },
     "r03": {
       "src": "clips/STAIRS-L.mp4",
       "duration": 7.808,
-      "title": "The stairs up, to the left",
+      "title": "The stairs up, off to the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
@@ -1064,112 +1670,172 @@
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "h02"
+            "next": "r03_F"
           }
         ],
         "default": 1
       }
     },
+    "r03_F": {
+      "src": "clips/L2-DEP-STAIRS-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the stairs",
+      "next": "h02"
+    },
     "r04": {
       "src": "clips/ASCEND.mp4",
-      "duration": 12.064,
+      "duration": 8.512,
       "title": "Up to Level One",
+      "next": "r04_X"
+    },
+    "r04_X": {
+      "src": "clips/L1-FORK.mp4",
+      "duration": 7.808,
+      "title": "A fork",
       "choice": {
-        "at": 8.564,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "r05"
+            "next": "r04_X_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "r06"
+            "next": "r04_X_R"
           }
         ],
         "default": 0
       }
+    },
+    "r04_X_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "r05"
+    },
+    "r04_X_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "r06"
     },
     "r05": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "r07"
+            "next": "r05_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "h01"
+            "next": "r05_R"
           }
         ],
         "default": 1
       }
+    },
+    "r05_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "r07"
+    },
+    "r05_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "h01"
     },
     "r06": {
       "src": "clips/L1-FORK.mp4",
       "duration": 7.808,
       "title": "A fork",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "h01"
+            "next": "r06_L"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "r09"
+            "next": "r06_R"
           }
         ],
         "default": 0
       }
+    },
+    "r06_L": {
+      "src": "clips/L1-DEP-FORK-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (FORK)",
+      "next": "h01"
+    },
+    "r06_R": {
+      "src": "clips/L1-DEP-FORK-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FORK)",
+      "next": "r09"
     },
     "r07": {
       "src": "clips/L1-LF.mp4",
       "duration": 7.808,
       "title": "An opening on the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
             "label": "Left",
-            "next": "r08"
+            "next": "r07_L"
           },
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "h02"
+            "next": "r07_F"
           }
         ],
         "default": 1
       }
     },
+    "r07_L": {
+      "src": "clips/L1-DEP-LF-L.mp4",
+      "duration": 6.4,
+      "title": "Left, into the dark (LF)",
+      "next": "r08"
+    },
+    "r07_F": {
+      "src": "clips/L1-DEP-LF-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (LF)",
+      "next": "h02"
+    },
     "r08": {
       "src": "clips/ENTRANCE-R.mp4",
       "duration": 7.808,
-      "title": "The entrance, to the right",
+      "title": "The entrance, off to the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "h01"
+            "next": "r08_F"
           },
           {
             "key": "ArrowRight",
@@ -1180,27 +1846,45 @@
         "default": 0
       }
     },
+    "r08_F": {
+      "src": "clips/L1-DEP-DOOR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the door",
+      "next": "h01"
+    },
     "r09": {
       "src": "clips/L1-FR.mp4",
       "duration": 7.808,
       "title": "An opening on the right",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "h02"
+            "next": "r09_F"
           },
           {
             "key": "ArrowRight",
             "label": "Right",
-            "next": "r11"
+            "next": "r09_R"
           }
         ],
         "default": 0
       }
+    },
+    "r09_F": {
+      "src": "clips/L1-DEP-FR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, into the dark (FR)",
+      "next": "h02"
+    },
+    "r09_R": {
+      "src": "clips/L1-DEP-FR-R.mp4",
+      "duration": 6.4,
+      "title": "Right, into the dark (FR)",
+      "next": "r11"
     },
     "r10": {
       "src": "clips/WIN.mp4",
@@ -1211,10 +1895,10 @@
     "r11": {
       "src": "clips/ENTRANCE-L.mp4",
       "duration": 7.808,
-      "title": "The entrance, to the left",
+      "title": "The entrance, off to the left",
       "choice": {
-        "at": 4.308,
-        "window": 3.5,
+        "at": 3.583,
+        "window": 4.225,
         "options": [
           {
             "key": "ArrowLeft",
@@ -1224,16 +1908,22 @@
           {
             "key": "ArrowUp",
             "label": "Forward",
-            "next": "h02"
+            "next": "r11_F"
           }
         ],
         "default": 1
       }
     },
+    "r11_F": {
+      "src": "clips/L1-DEP-DOOR-F.mp4",
+      "duration": 6.4,
+      "title": "Forward, away from the door",
+      "next": "h02"
+    },
     "h01": {
       "src": "clips/HUNT-AHEAD.mp4",
       "duration": 8.708,
-      "title": "Caught from ahead",
+      "title": "Caught head-on",
       "outcome": "lose"
     },
     "h02": {
