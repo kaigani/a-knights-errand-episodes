@@ -1,0 +1,208 @@
+{
+  "title": "A Knight's Errand: The Lamp Below the Sands",
+  "start": "n01",
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "duration": 37.76,
+      "title": "Gold or Water",
+      "choice": {
+        "at": 25.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish for the mountain of gold",
+            "next": "n02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish for a cup of water",
+            "next": "n03"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "duration": 29.76,
+      "title": "Wings or Nothing",
+      "choice": {
+        "at": 17.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish for wings",
+            "next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish the gold gone",
+            "next": "n05"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "duration": 29.76,
+      "title": "The Fox or the Sword",
+      "choice": {
+        "at": 17.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish the fox free",
+            "next": "n07"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish for the sword of fire",
+            "next": "n06"
+          }
+        ],
+        "default": 1
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "duration": 29.76,
+      "title": "The Bird or the Boots",
+      "choice": {
+        "at": 17.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish to fly like a true bird",
+            "next": "n08"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish the wings gone",
+            "next": "n09"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "duration": 29.76,
+      "title": "Home or Stillness",
+      "choice": {
+        "at": 17.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish to be home",
+            "next": "n10"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish the sand to stop",
+            "next": "n11"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "duration": 29.76,
+      "title": "Sky or Rain",
+      "choice": {
+        "at": 17.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish the roof open to the sky",
+            "next": "n12"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish for rain",
+            "next": "n13"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "duration": 29.76,
+      "title": "Shelter or the Lamp",
+      "choice": {
+        "at": 17.01,
+        "window": 12.75,
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wish for shelter from the sand",
+            "next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Wish the djinn back into his lamp",
+            "next": "n15"
+          }
+        ],
+        "default": 0
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "duration": 17.024,
+      "title": "The Goose",
+      "outcome": "lose"
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "duration": 17.024,
+      "title": "To the Hood in Coins",
+      "outcome": "lose"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "duration": 17.024,
+      "title": "The Moat, Again",
+      "outcome": "lose"
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "duration": 17.024,
+      "title": "The Standing Sand",
+      "outcome": "lose"
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "duration": 17.024,
+      "title": "The Desert Comes In",
+      "outcome": "lose"
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "duration": 17.024,
+      "title": "The Terracotta Knight",
+      "outcome": "lose"
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "duration": 17.024,
+      "title": "Somewhere Safe",
+      "outcome": "lose"
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "duration": 25.504,
+      "title": "The Stopper",
+      "outcome": "win"
+    }
+  }
+}
