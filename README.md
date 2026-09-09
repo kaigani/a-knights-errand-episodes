@@ -14,6 +14,7 @@ an episode.
 | Prologue | A Knight's Errand | `00-a-knights-errand/` |
 | Errand I | The Dragon's Hoard | `01-the-dragons-hoard/` |
 | Errand II | The Bell of the Drowned Abbey | `02-the-bell-of-the-drowned-abbey/` |
+| Errand XI | The Sleeping Court | `11-the-sleeping-court/` |
 
 Each episode folder contains `index.html`, `main.js`, `style.css`, a
 `manifest.json` describing the story tree, and its video `clips/`.

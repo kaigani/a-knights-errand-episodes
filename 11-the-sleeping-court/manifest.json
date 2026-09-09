@@ -1,0 +1,708 @@
+{
+  "title": "The Sleeping Court",
+  "start": "n01",
+  "untimed": true,
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "title": "The Guards Who Never Sit Down",
+      "duration": 10.874349,
+      "parts": [
+        "n01_p1",
+        "n01_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Slip into the banquet hall",
+            "next": "n01_L",
+            "story_next": "n02"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Try the bedroom with the fern",
+            "next": "n01_R",
+            "story_next": "n03"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "title": "A Toast a Hundred Days Long",
+      "duration": 10.874349,
+      "parts": [
+        "n02_p1",
+        "n02_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Join the sleepy toast",
+            "next": "n02_L",
+            "story_next": "n18"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Do not toast; find another way",
+            "next": "n02_R",
+            "story_next": "n23"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "title": "The Bedroom Full of Ferns",
+      "duration": 10.874349,
+      "parts": [
+        "n03_p1",
+        "n03_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Wash your face at the fountain",
+            "next": "n03_L",
+            "story_next": "n06"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Sail away on the palm frond",
+            "next": "n03_R",
+            "story_next": "n07"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "title": "Beneath the Royal Knees",
+      "duration": 10.874349,
+      "parts": [
+        "n04_p1",
+        "n04_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Hold the ribbon and hitch a ride",
+            "next": "n04_L",
+            "story_next": "n08"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Share the offered cushion",
+            "next": "n04_R",
+            "story_next": "n19"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "title": "The Pantry That Breathes",
+      "duration": 10.874349,
+      "parts": [
+        "n05_p1",
+        "n05_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Work the fan and take the cleared stair",
+            "next": "n05_L",
+            "story_next": "n09"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Follow the sandman's slippers",
+            "next": "n05_R",
+            "story_next": "n10"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "title": "A Stair in the Looking Glass",
+      "duration": 14.416016,
+      "parts": [
+        "n06_p1",
+        "n06_p2",
+        "n06_p3"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Take the stair the reflection found",
+            "next": "n06_L",
+            "story_next": "n11"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Step through the moon door",
+            "next": "n06_R",
+            "story_next": "n12"
+          }
+        ],
+        "at": 13.416016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "title": "The Leaf Boat",
+      "duration": 12.999349,
+      "parts": [
+        "n07_p1",
+        "n07_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Follow the golden footprints",
+            "next": "n07_L",
+            "story_next": "n10"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Visit the room of floating washing",
+            "next": "n07_R",
+            "story_next": "n12"
+          }
+        ],
+        "at": 11.999349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "title": "The Pudding Procession",
+      "duration": 10.874349,
+      "parts": [
+        "n08_p1",
+        "n08_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Visit the revolving ballroom",
+            "next": "n08_L",
+            "story_next": "n13"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb the stair through the mist",
+            "next": "n08_R",
+            "story_next": "n11"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "title": "The Peacock Fan",
+      "duration": 10.874349,
+      "parts": [
+        "n09_p1",
+        "n09_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Climb the white stair",
+            "next": "n09_L",
+            "story_next": "n11"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Follow the breeze into the ballroom",
+            "next": "n09_R",
+            "story_next": "n13"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "title": "The Slipper Passage",
+      "duration": 10.874349,
+      "parts": [
+        "n10_p1",
+        "n10_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Keep following the footprints",
+            "next": "n10_L",
+            "story_next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Try the slipper for size",
+            "next": "n10_R",
+            "story_next": "n20"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "title": "The Stair Above the Clouds",
+      "duration": 11.582683,
+      "parts": [
+        "n11_p1",
+        "n11_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Go through the star doorway",
+            "next": "n11_L",
+            "story_next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Explore the floating laundry",
+            "next": "n11_R",
+            "story_next": "n12"
+          }
+        ],
+        "at": 10.582683,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "title": "The Laundry That Forgot Down",
+      "duration": 11.582683,
+      "parts": [
+        "n12_p1",
+        "n12_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Slide down the taut sheet to the star door",
+            "next": "n12_L",
+            "story_next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Curl up in the floating hammock",
+            "next": "n12_R",
+            "story_next": "n21"
+          }
+        ],
+        "at": 10.582683,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "title": "The Unfinished Waltz",
+      "duration": 10.874349,
+      "parts": [
+        "n13_p1",
+        "n13_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Latch the brake and cross the ballroom",
+            "next": "n13_L",
+            "story_next": "n14"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Accept one very slow dance",
+            "next": "n13_R",
+            "story_next": "n22"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "title": "Someone Has Forgotten His Own Bedtime",
+      "duration": 15.832683,
+      "parts": [
+        "n14_p1",
+        "n14_p2",
+        "n14_p3"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Lay the hourglass in its felt cradle",
+            "next": "n14_L",
+            "story_next": "n15"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Pat the pillow and offer the sandman his bed",
+            "next": "n14_R",
+            "story_next": "n16"
+          }
+        ],
+        "at": 14.832683,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "title": "The Quietest Trick",
+      "duration": 17.249349,
+      "parts": [
+        "n15_p1",
+        "n15_p2",
+        "n15_p3"
+      ],
+      "next": "n17"
+    },
+    "n16": {
+      "src": "clips/n16.mp4",
+      "title": "A Bed for the Bedtime Man",
+      "duration": 22.707683,
+      "parts": [
+        "n16_p1",
+        "n16_p2",
+        "n16_p3",
+        "n16_p4"
+      ],
+      "next": "n17"
+    },
+    "n17": {
+      "src": "clips/n17.mp4",
+      "title": "Good Morning, Your Majesty",
+      "duration": 24.334,
+      "parts": [
+        "n17_p1",
+        "n17_p2",
+        "n17_p3",
+        "n17_p4"
+      ],
+      "outcome": "win"
+    },
+    "n18": {
+      "src": "clips/n18.mp4",
+      "title": "The Last Guest at the Feast",
+      "duration": 15.874349,
+      "parts": [
+        "n18_p1",
+        "n18_p2",
+        "n18_p3"
+      ],
+      "restart": "Start"
+    },
+    "n19": {
+      "src": "clips/n19.mp4",
+      "title": "The Knight and the Lapdog",
+      "duration": 16.374349,
+      "parts": [
+        "n19_p1",
+        "n19_p2",
+        "n19_p3"
+      ],
+      "restart": "Start"
+    },
+    "n20": {
+      "src": "clips/n20.mp4",
+      "title": "A Slipper with a Red Tassel",
+      "duration": 16.374349,
+      "parts": [
+        "n20_p1",
+        "n20_p2",
+        "n20_p3"
+      ],
+      "restart": "Start"
+    },
+    "n21": {
+      "src": "clips/n21.mp4",
+      "title": "Freshly Laundered",
+      "duration": 15.874349,
+      "parts": [
+        "n21_p1",
+        "n21_p2",
+        "n21_p3"
+      ],
+      "restart": "Start"
+    },
+    "n22": {
+      "src": "clips/n22.mp4",
+      "title": "One More Turn",
+      "duration": 17.082683,
+      "parts": [
+        "n22_p1",
+        "n22_p2",
+        "n22_p3"
+      ],
+      "restart": "Start"
+    },
+    "n23": {
+      "src": "clips/n23.mp4",
+      "title": "Around the Toast",
+      "duration": 8.749349,
+      "parts": [
+        "n23_p1",
+        "n23_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Duck beneath the tablecloth",
+            "next": "n23_L",
+            "story_next": "n04"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb through the serving hatch",
+            "next": "n23_R",
+            "story_next": "n05"
+          }
+        ],
+        "at": 7.7493490000000005,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n01_L": {
+      "src": "clips/n01_L.mp4",
+      "title": "Slip into the banquet hall",
+      "duration": 4.291016,
+      "next": "n02"
+    },
+    "n01_R": {
+      "src": "clips/n01_R.mp4",
+      "title": "Try the bedroom with the fern",
+      "duration": 4.291016,
+      "next": "n03"
+    },
+    "n02_L": {
+      "src": "clips/n02_L.mp4",
+      "title": "Join the sleepy toast",
+      "duration": 4.291016,
+      "next": "n18"
+    },
+    "n02_R": {
+      "src": "clips/n02_R.mp4",
+      "title": "Do not toast; find another way",
+      "duration": 4.291016,
+      "next": "n23"
+    },
+    "n03_L": {
+      "src": "clips/n03_L.mp4",
+      "title": "Wash your face at the fountain",
+      "duration": 4.291016,
+      "next": "n06"
+    },
+    "n03_R": {
+      "src": "clips/n03_R.mp4",
+      "title": "Sail away on the palm frond",
+      "duration": 4.291016,
+      "next": "n07"
+    },
+    "n04_L": {
+      "src": "clips/n04_L.mp4",
+      "title": "Hold the ribbon and hitch a ride",
+      "duration": 4.291016,
+      "next": "n08"
+    },
+    "n04_R": {
+      "src": "clips/n04_R.mp4",
+      "title": "Share the offered cushion",
+      "duration": 4.291016,
+      "next": "n19"
+    },
+    "n05_L": {
+      "src": "clips/n05_L.mp4",
+      "title": "Work the fan and take the cleared stair",
+      "duration": 4.291016,
+      "next": "n09"
+    },
+    "n05_R": {
+      "src": "clips/n05_R.mp4",
+      "title": "Follow the sandman's slippers",
+      "duration": 4.291016,
+      "next": "n10"
+    },
+    "n06_L": {
+      "src": "clips/n06_L.mp4",
+      "title": "Take the stair the reflection found",
+      "duration": 4.291016,
+      "next": "n11"
+    },
+    "n06_R": {
+      "src": "clips/n06_R.mp4",
+      "title": "Step through the moon door",
+      "duration": 4.291016,
+      "next": "n12"
+    },
+    "n07_L": {
+      "src": "clips/n07_L.mp4",
+      "title": "Follow the golden footprints",
+      "duration": 4.291016,
+      "next": "n10"
+    },
+    "n07_R": {
+      "src": "clips/n07_R.mp4",
+      "title": "Visit the room of floating washing",
+      "duration": 4.291016,
+      "next": "n12"
+    },
+    "n08_L": {
+      "src": "clips/n08_L.mp4",
+      "title": "Visit the revolving ballroom",
+      "duration": 4.291016,
+      "next": "n13"
+    },
+    "n08_R": {
+      "src": "clips/n08_R.mp4",
+      "title": "Climb the stair through the mist",
+      "duration": 4.291016,
+      "next": "n11"
+    },
+    "n09_L": {
+      "src": "clips/n09_L.mp4",
+      "title": "Climb the white stair",
+      "duration": 4.291016,
+      "next": "n11"
+    },
+    "n09_R": {
+      "src": "clips/n09_R.mp4",
+      "title": "Follow the breeze into the ballroom",
+      "duration": 4.291016,
+      "next": "n13"
+    },
+    "n10_L": {
+      "src": "clips/n10_L.mp4",
+      "title": "Keep following the footprints",
+      "duration": 4.291016,
+      "next": "n14"
+    },
+    "n10_R": {
+      "src": "clips/n10_R.mp4",
+      "title": "Try the slipper for size",
+      "duration": 4.291016,
+      "next": "n20"
+    },
+    "n11_L": {
+      "src": "clips/n11_L.mp4",
+      "title": "Go through the star doorway",
+      "duration": 4.291016,
+      "next": "n14"
+    },
+    "n11_R": {
+      "src": "clips/n11_R.mp4",
+      "title": "Explore the floating laundry",
+      "duration": 4.291016,
+      "next": "n12"
+    },
+    "n12_L": {
+      "src": "clips/n12_L.mp4",
+      "title": "Slide down the taut sheet to the star door",
+      "duration": 6.416016,
+      "next": "n14"
+    },
+    "n12_R": {
+      "src": "clips/n12_R.mp4",
+      "title": "Curl up in the floating hammock",
+      "duration": 4.291016,
+      "next": "n21"
+    },
+    "n13_L": {
+      "src": "clips/n13_L.mp4",
+      "title": "Latch the brake and cross the ballroom",
+      "duration": 6.416016,
+      "next": "n14"
+    },
+    "n13_R": {
+      "src": "clips/n13_R.mp4",
+      "title": "Accept one very slow dance",
+      "duration": 4.291016,
+      "next": "n22"
+    },
+    "n14_L": {
+      "src": "clips/n14_L.mp4",
+      "title": "Lay the hourglass in its felt cradle",
+      "duration": 4.291016,
+      "next": "n15"
+    },
+    "n14_R": {
+      "src": "clips/n14_R.mp4",
+      "title": "Pat the pillow and offer the sandman his bed",
+      "duration": 4.291016,
+      "next": "n16"
+    },
+    "n23_L": {
+      "src": "clips/n23_L.mp4",
+      "title": "Duck beneath the tablecloth",
+      "duration": 4.291016,
+      "next": "n04"
+    },
+    "n23_R": {
+      "src": "clips/n23_R.mp4",
+      "title": "Climb through the serving hatch",
+      "duration": 6.416016,
+      "next": "n05"
+    }
+  },
+  "production": {
+    "stage": "rough video",
+    "width": 544,
+    "height": 960,
+    "steps": 8,
+    "use_vdn_advanced": true,
+    "user_approved": false,
+    "higher_resolution_authorized": false
+  }
+}
