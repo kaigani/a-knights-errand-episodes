@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<title>The Giant's Table — Production Review</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+  <div id="stage">
+    <video id="vidA" playsinline preload="auto"></video>
+    <video id="vidB" playsinline preload="auto"></video>
+    <div id="title" class="panel visible">
+      <video id="splashvid" src="clips/splash.mp4" preload="auto" playsinline loop muted></video>
+      <div id="titlecard">
+        <h1>A Knight's Errand</h1>
+        <p class="tagline"><strong>Episode 12: The Giant's Table</strong><br>
+          Cross a supper fit for a giant.<br>Free the golden harp without being noticed.</p>
+        <div id="loadwrap"><button id="begin" disabled>Loading&hellip;</button><div id="loadbar"><div id="loadfill"></div></div></div>
+        <p class="fineprint">576 × 1024 production video · tap a choice or use ← / →<br>Every choice waits for you.</p>
+        <p id="status" role="status"></p>
+      </div>
+    </div>
+    <div id="end" class="panel">
+      <h1>The Harp Comes Home</h1>
+      <p id="endPath" class="tagline"></p>
+      <button id="restart">Cross the Table Again</button>
+    </div>
+  </div>
+  <div id="choicebar">
+    <button class="choice" id="c0"><span class="glyph"></span><span class="label"></span></button>
+    <svg id="ring" style="display:none" viewBox="0 0 48 48" aria-hidden="true"><circle class="ring-bg" cx="24" cy="24" r="20"/><circle class="ring-fg" cx="24" cy="24" r="20"/></svg>
+    <button class="choice" id="c1"><span class="glyph"></span><span class="label"></span></button>
+  </div>
+</main>
+<div id="hud"></div>
+<script src="main.js"></script>
+</body>
+</html>

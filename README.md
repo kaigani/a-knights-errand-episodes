@@ -15,6 +15,7 @@ an episode.
 | Errand I | The Dragon's Hoard | `01-the-dragons-hoard/` |
 | Errand II | The Bell of the Drowned Abbey | `02-the-bell-of-the-drowned-abbey/` |
 | Errand XI | The Sleeping Court | `11-the-sleeping-court/` |
+| Errand XII | The Giant's Table | `12-the-giants-table/` |
 
 Each episode folder contains `index.html`, `main.js`, `style.css`, a
 `manifest.json` describing the story tree, and its video `clips/`.

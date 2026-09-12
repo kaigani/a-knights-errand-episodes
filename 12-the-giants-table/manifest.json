@@ -1,0 +1,974 @@
+{
+  "title": "The Giant's Table",
+  "start": "n01",
+  "untimed": true,
+  "clips": {
+    "n01": {
+      "src": "clips/n01.mp4",
+      "title": "Supper Is a Country",
+      "duration": 20.791016,
+      "parts": [
+        "n01_p1",
+        "n01_p2",
+        "n01_p3",
+        "n01_p4"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Walk ahead to the loaf and the fork",
+            "next": "n32",
+            "story_next": "n32",
+            "departure": "folded"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Tip the saltcellar towards the gravy",
+            "next": "n04",
+            "story_next": "n04",
+            "departure": "folded"
+          }
+        ],
+        "at": 19.791016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n02": {
+      "src": "clips/n02.mp4",
+      "title": "The Bread Cliffs",
+      "duration": 10.874349,
+      "parts": [
+        "n02_p1",
+        "n02_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Launch the spoon across the gravy",
+            "next": "n05",
+            "story_next": "n05",
+            "departure": "folded"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Crawl through the bread tunnel",
+            "next": "n02_R",
+            "story_next": "n06",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n03": {
+      "src": "clips/n03.mp4",
+      "title": "The Fork Road",
+      "duration": 13.291016,
+      "parts": [
+        "n03_p1",
+        "n03_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Step onto the goblet stem and climb",
+            "next": "n03_L",
+            "story_next": "n08",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Stay aboard for the lift to the rim",
+            "next": "n07",
+            "story_next": "n07",
+            "departure": "folded"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n04": {
+      "src": "clips/n04.mp4",
+      "title": "An Avalanche You Can Order",
+      "duration": 13.291016,
+      "parts": [
+        "n04_p1",
+        "n04_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Push the salt into a causeway",
+            "next": "n04_L",
+            "story_next": "n09",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Surf the loose lid down the salt",
+            "next": "n10",
+            "story_next": "n10",
+            "departure": "folded"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n05": {
+      "src": "clips/n05.mp4",
+      "title": "The Gravy Ferry",
+      "duration": 13.291016,
+      "parts": [
+        "n05_p1",
+        "n05_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Ride the next wave onto the napkin",
+            "next": "n05_L",
+            "story_next": "n11",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Hook the bread bank and take the tunnel",
+            "next": "n05_R",
+            "story_next": "n06",
+            "departure": "clip"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n06": {
+      "src": "clips/n06.mp4",
+      "title": "The Eye at the End of the Tunnel",
+      "duration": 10.874349,
+      "parts": [
+        "n06_p1",
+        "n06_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Offer the cat the crumb",
+            "next": "n06_L",
+            "story_next": "n12",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Come out and make a game of it",
+            "next": "n06_R",
+            "story_next": "n13",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n07": {
+      "src": "clips/n07.mp4",
+      "title": "The Cutlery Lift",
+      "duration": 13.291016,
+      "parts": [
+        "n07_p1",
+        "n07_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Step off onto the goblet rim",
+            "next": "n07_L",
+            "story_next": "n08",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Ride all the way to the moustache",
+            "next": "n24",
+            "story_next": "n24",
+            "departure": "folded"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n08": {
+      "src": "clips/n08.mp4",
+      "title": "The Red Glass Lookout",
+      "duration": 10.874349,
+      "parts": [
+        "n08_p1",
+        "n08_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Cross the fork bridge to the snuffbox",
+            "next": "n08_L",
+            "story_next": "n15",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb down beside the pepper mill",
+            "next": "n14",
+            "story_next": "n14",
+            "departure": "folded"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n09": {
+      "src": "clips/n09.mp4",
+      "title": "The White Causeway",
+      "duration": 10.874349,
+      "parts": [
+        "n09_p1",
+        "n09_p2"
+      ],
+      "next": "n11"
+    },
+    "n10": {
+      "src": "clips/n10.mp4",
+      "title": "The Salt-Saucer Derby",
+      "duration": 13.291016,
+      "parts": [
+        "n10_p1",
+        "n10_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Climb from here onto the loaf",
+            "next": "n10_L",
+            "story_next": "n02",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Finish pushing the salt causeway",
+            "next": "n10_R",
+            "story_next": "n09",
+            "departure": "clip"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n11": {
+      "src": "clips/n11.mp4",
+      "title": "The Napkin Hills",
+      "duration": 10.874349,
+      "parts": [
+        "n11_p1",
+        "n11_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Offer the cat the crumb",
+            "next": "n11_L",
+            "story_next": "n12",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Invite the cat to play",
+            "next": "n11_R",
+            "story_next": "n13",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n12": {
+      "src": "clips/n12.mp4",
+      "title": "A Crumb for a Dragon",
+      "duration": 10.874349,
+      "parts": [
+        "n12_p1",
+        "n12_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Walk between the paws to the harp's foot",
+            "next": "n12_L",
+            "story_next": "n16",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb the resting paw to the harp strings",
+            "next": "n12_R",
+            "story_next": "n17",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n13": {
+      "src": "clips/n13.mp4",
+      "title": "The Cat Would Like a Game",
+      "duration": 10.874349,
+      "parts": [
+        "n13_p1",
+        "n13_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Roll the crumb away from the harp",
+            "next": "n18",
+            "story_next": "n18",
+            "departure": "folded"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Let the cat catch the cape tip",
+            "next": "n25",
+            "story_next": "n25",
+            "departure": "folded"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n14": {
+      "src": "clips/n14.mp4",
+      "title": "At the Foot of the Pepper Mill",
+      "duration": 13.291016,
+      "parts": [
+        "n14_p1",
+        "n14_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Climb the pepper mill's spiral grooves",
+            "next": "n14_L",
+            "story_next": "n19",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Go to the spoon beside the snuffbox",
+            "next": "n14_R",
+            "story_next": "n15",
+            "departure": "clip"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n15": {
+      "src": "clips/n15.mp4",
+      "title": "A Lever as Long as a Lane",
+      "duration": 10.874349,
+      "parts": [
+        "n15_p1",
+        "n15_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Use the spoon to lever the box off the harp",
+            "next": "n21",
+            "story_next": "n21",
+            "departure": "folded"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb the pepper mill for a bigger disturbance",
+            "next": "n15_R",
+            "story_next": "n19",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n16": {
+      "src": "clips/n16.mp4",
+      "title": "The Golden Foot",
+      "duration": 10.874349,
+      "parts": [
+        "n16_p1",
+        "n16_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Use the spoon to lift the snuffbox",
+            "next": "n16_L",
+            "story_next": "n15",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb the carved frame to the strings",
+            "next": "n16_R",
+            "story_next": "n17",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n17": {
+      "src": "clips/n17.mp4",
+      "title": "Inside the Harp",
+      "duration": 10.874349,
+      "parts": [
+        "n17_p1",
+        "n17_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Play another high note to call the cat",
+            "next": "n17_L",
+            "story_next": "n22",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Cross the box lid and climb the pepper mill",
+            "next": "n17_R",
+            "story_next": "n19",
+            "departure": "clip"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n18": {
+      "src": "clips/n18.mp4",
+      "title": "The Great Crumb Hunt",
+      "duration": 13.291016,
+      "parts": [
+        "n18_p1",
+        "n18_p2"
+      ],
+      "next": "n16"
+    },
+    "n19": {
+      "src": "clips/n19.mp4",
+      "title": "The Pepper Balcony",
+      "duration": 10.874349,
+      "parts": [
+        "n19_p1",
+        "n19_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Lean on the crank and tip pepper into the snuffbox",
+            "next": "n20",
+            "story_next": "n20",
+            "departure": "folded"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Open the hatch and blow pepper at the giant",
+            "next": "n26",
+            "story_next": "n26",
+            "departure": "folded"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n20": {
+      "src": "clips/n20.mp4",
+      "title": "The Sneeze Being Built",
+      "duration": 19.666016,
+      "parts": [
+        "n20_p1",
+        "n20_p2",
+        "n20_p3"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Tip the harp onto the tablecloth as a sled",
+            "next": "n23",
+            "story_next": "n23",
+            "departure": "folded"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Spread the napkin over the harp as a sail",
+            "next": "n27",
+            "story_next": "n27",
+            "departure": "folded"
+          }
+        ],
+        "at": 18.666016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n21": {
+      "src": "clips/n21.mp4",
+      "title": "The Spoon Seesaw",
+      "duration": 13.291016,
+      "parts": [
+        "n21_p1",
+        "n21_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Push the harp onto the downhill fold",
+            "next": "n21_L",
+            "story_next": "n28",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Call the cat with a high note",
+            "next": "n21_R",
+            "story_next": "n22",
+            "departure": "clip"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n22": {
+      "src": "clips/n22.mp4",
+      "title": "A Porter with Whiskers",
+      "duration": 10.874349,
+      "parts": [
+        "n22_p1",
+        "n22_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Play low and have the cat push the harp onto the cloth",
+            "next": "n22_L",
+            "story_next": "n28",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Play high and climb aboard for collection",
+            "next": "n29",
+            "story_next": "n29",
+            "departure": "folded"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n23": {
+      "src": "clips/n23.mp4",
+      "title": "The Tablecloth Earthquake",
+      "duration": 13.291016,
+      "parts": [
+        "n23_p1",
+        "n23_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Lean into the straight fold towards the floor",
+            "next": "n23_L",
+            "story_next": "n30",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Bank into the cloth pocket to slow down",
+            "next": "n23_R",
+            "story_next": "n28",
+            "departure": "clip"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n24": {
+      "src": "clips/n24.mp4",
+      "title": "The Moustache Meadow",
+      "duration": 15.416016,
+      "parts": [
+        "n24_p1",
+        "n24_p2"
+      ],
+      "next": "n11"
+    },
+    "n25": {
+      "src": "clips/n25.mp4",
+      "title": "The Cape Has Been Captured",
+      "duration": 13.291016,
+      "parts": [
+        "n25_p1",
+        "n25_p2"
+      ],
+      "next": "n11"
+    },
+    "n26": {
+      "src": "clips/n26.mp4",
+      "title": "A Very Small Achoo",
+      "duration": 15.416016,
+      "parts": [
+        "n26_p1",
+        "n26_p2"
+      ],
+      "next": "n17"
+    },
+    "n27": {
+      "src": "clips/n27.mp4",
+      "title": "The Napkin Skyship",
+      "duration": 16.125333,
+      "parts": [
+        "n27_p1",
+        "n27_p2"
+      ],
+      "next": "n30"
+    },
+    "n28": {
+      "src": "clips/n28.mp4",
+      "title": "The White Pocket Harbour",
+      "duration": 10.874349,
+      "parts": [
+        "n28_p1",
+        "n28_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Pin the lip under the harp and ride to the floor",
+            "next": "n28_L",
+            "story_next": "n30",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Climb down the seam, guiding the harp behind you",
+            "next": "n31",
+            "story_next": "n31",
+            "departure": "folded"
+          }
+        ],
+        "at": 9.874349,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n29": {
+      "src": "clips/n29.mp4",
+      "title": "Collected by the Cat",
+      "duration": 15.416016,
+      "parts": [
+        "n29_p1",
+        "n29_p2"
+      ],
+      "next": "n30"
+    },
+    "n30": {
+      "src": "clips/n30.mp4",
+      "title": "A Knight of the Proper Size",
+      "duration": 19.374349,
+      "parts": [
+        "n30_p1",
+        "n30_p2",
+        "n30_p3"
+      ],
+      "outcome": "win"
+    },
+    "n31": {
+      "src": "clips/n31.mp4",
+      "title": "The Last Inch of Mountain",
+      "duration": 13.291016,
+      "parts": [
+        "n31_p1",
+        "n31_p2"
+      ],
+      "next": "n30"
+    },
+    "n32": {
+      "src": "clips/n32.mp4",
+      "title": "Where the Fork Meets the Bread",
+      "duration": 13.291016,
+      "parts": [
+        "n32_p1",
+        "n32_p2"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "ArrowLeft",
+            "label": "Climb the loaf",
+            "next": "n32_L",
+            "story_next": "n02",
+            "departure": "clip"
+          },
+          {
+            "key": "ArrowRight",
+            "label": "Take the silver fork road",
+            "next": "n03",
+            "story_next": "n03",
+            "departure": "folded"
+          }
+        ],
+        "at": 12.291016,
+        "timeout": null,
+        "default": null
+      }
+    },
+    "n02_R": {
+      "src": "clips/n02_R.mp4",
+      "title": "Crawl through the bread tunnel",
+      "duration": 4.291016,
+      "next": "n06"
+    },
+    "n03_L": {
+      "src": "clips/n03_L.mp4",
+      "title": "Step onto the goblet stem and climb",
+      "duration": 6.416016,
+      "next": "n08"
+    },
+    "n04_L": {
+      "src": "clips/n04_L.mp4",
+      "title": "Push the salt into a causeway",
+      "duration": 6.416016,
+      "next": "n09"
+    },
+    "n05_L": {
+      "src": "clips/n05_L.mp4",
+      "title": "Ride the next wave onto the napkin",
+      "duration": 4.291016,
+      "next": "n11"
+    },
+    "n05_R": {
+      "src": "clips/n05_R.mp4",
+      "title": "Hook the bread bank and take the tunnel",
+      "duration": 6.416016,
+      "next": "n06"
+    },
+    "n06_L": {
+      "src": "clips/n06_L.mp4",
+      "title": "Offer the cat the crumb",
+      "duration": 4.291016,
+      "next": "n12"
+    },
+    "n06_R": {
+      "src": "clips/n06_R.mp4",
+      "title": "Come out and make a game of it",
+      "duration": 4.291016,
+      "next": "n13"
+    },
+    "n07_L": {
+      "src": "clips/n07_L.mp4",
+      "title": "Step off onto the goblet rim",
+      "duration": 4.291016,
+      "next": "n08"
+    },
+    "n08_L": {
+      "src": "clips/n08_L.mp4",
+      "title": "Cross the fork bridge to the snuffbox",
+      "duration": 4.291016,
+      "next": "n15"
+    },
+    "n10_L": {
+      "src": "clips/n10_L.mp4",
+      "title": "Climb from here onto the loaf",
+      "duration": 6.416016,
+      "next": "n02"
+    },
+    "n10_R": {
+      "src": "clips/n10_R.mp4",
+      "title": "Finish pushing the salt causeway",
+      "duration": 4.291016,
+      "next": "n09"
+    },
+    "n11_L": {
+      "src": "clips/n11_L.mp4",
+      "title": "Offer the cat the crumb",
+      "duration": 4.291016,
+      "next": "n12"
+    },
+    "n11_R": {
+      "src": "clips/n11_R.mp4",
+      "title": "Invite the cat to play",
+      "duration": 4.291016,
+      "next": "n13"
+    },
+    "n12_L": {
+      "src": "clips/n12_L.mp4",
+      "title": "Walk between the paws to the harp's foot",
+      "duration": 4.291016,
+      "next": "n16"
+    },
+    "n12_R": {
+      "src": "clips/n12_R.mp4",
+      "title": "Climb the resting paw to the harp strings",
+      "duration": 4.291016,
+      "next": "n17"
+    },
+    "n14_L": {
+      "src": "clips/n14_L.mp4",
+      "title": "Climb the pepper mill's spiral grooves",
+      "duration": 4.291016,
+      "next": "n19"
+    },
+    "n14_R": {
+      "src": "clips/n14_R.mp4",
+      "title": "Go to the spoon beside the snuffbox",
+      "duration": 4.291016,
+      "next": "n15"
+    },
+    "n15_R": {
+      "src": "clips/n15_R.mp4",
+      "title": "Climb the pepper mill for a bigger disturbance",
+      "duration": 4.291016,
+      "next": "n19"
+    },
+    "n16_L": {
+      "src": "clips/n16_L.mp4",
+      "title": "Use the spoon to lift the snuffbox",
+      "duration": 4.291016,
+      "next": "n15"
+    },
+    "n16_R": {
+      "src": "clips/n16_R.mp4",
+      "title": "Climb the carved frame to the strings",
+      "duration": 4.291016,
+      "next": "n17"
+    },
+    "n17_L": {
+      "src": "clips/n17_L.mp4",
+      "title": "Play another high note to call the cat",
+      "duration": 4.291016,
+      "next": "n22"
+    },
+    "n17_R": {
+      "src": "clips/n17_R.mp4",
+      "title": "Cross the box lid and climb the pepper mill",
+      "duration": 4.291016,
+      "next": "n19"
+    },
+    "n21_L": {
+      "src": "clips/n21_L.mp4",
+      "title": "Push the harp onto the downhill fold",
+      "duration": 6.416016,
+      "next": "n28"
+    },
+    "n21_R": {
+      "src": "clips/n21_R.mp4",
+      "title": "Call the cat with a high note",
+      "duration": 4.291016,
+      "next": "n22"
+    },
+    "n22_L": {
+      "src": "clips/n22_L.mp4",
+      "title": "Play low and have the cat push the harp onto the cloth",
+      "duration": 6.416016,
+      "next": "n28"
+    },
+    "n23_L": {
+      "src": "clips/n23_L.mp4",
+      "title": "Lean into the straight fold towards the floor",
+      "duration": 4.291016,
+      "next": "n30"
+    },
+    "n23_R": {
+      "src": "clips/n23_R.mp4",
+      "title": "Bank into the cloth pocket to slow down",
+      "duration": 4.291016,
+      "next": "n28"
+    },
+    "n28_L": {
+      "src": "clips/n28_L.mp4",
+      "title": "Pin the lip under the harp and ride to the floor",
+      "duration": 4.291016,
+      "next": "n30"
+    },
+    "n32_L": {
+      "src": "clips/n32_L.mp4",
+      "title": "Climb the loaf",
+      "duration": 6.416016,
+      "next": "n02"
+    }
+  },
+  "production": {
+    "stage": "production review",
+    "width": 576,
+    "height": 1024,
+    "fps": 24,
+    "steps": 8,
+    "use_vdn_advanced": true,
+    "user_approved": false
+  }
+}
